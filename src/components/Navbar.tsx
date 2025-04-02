@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Menu } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -13,7 +14,7 @@ export default function Navbar() {
       <div className="container mx-auto px-6">
         <div className="flex justify-between items-center h-16">
           <Link href="/" className="text-2xl font-bold text-blue-600">
-            EnterpriseHub
+          <Image src="/images/logo.png" alt="Logo" width={60} height={40} />
           </Link>
 
           <div className="hidden lg:flex space-x-8">

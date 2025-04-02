@@ -6,9 +6,9 @@ import { type Metadata } from "next";
 import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
-  title: "EnterpriseHub - B2B Solutions",
+  title: "Salesforce",
   description: "Enterprise solutions for modern businesses",
-  icons: [{ rel: "icon", url: "/favicon.ico" }],
+  icons: [{ rel: "icon", url: "/images/logo.png" }],
 };
 
 export default function RootLayout({
